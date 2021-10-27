@@ -15,7 +15,7 @@ import plotly.express as px
 # In[13]:
 
 
-data = pd.read_csv("C:\Users\Simplon\Google Drive\Nasreddine38\Alison\11 - Déploiement\Sanaj\df_foodapp.csv", index_col=0)
+data = pd.read_csv("C:\Users\Simplon\Google Drive\Nasreddine38\Alison\11 - Déploiement\Sanaj\df_foodapp.csv")
 
 data=data.reset_index(drop=True)
 
